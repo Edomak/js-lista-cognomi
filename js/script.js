@@ -42,5 +42,5 @@ for (var i = 0; i < cognomi.length; i++) {
 }
 
     var posizioneUtente = cognomi.indexOf(cognomeUtente);
-    console.log("La posizione del " + cognomeUtente + " si trova alla posizione: " + (posizioneUtente + 1));
+    console.log("Il cognome inserito " + cognomeUtente + " si trova alla posizione: " + (posizioneUtente + 1));
 
