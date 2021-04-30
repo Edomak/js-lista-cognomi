@@ -38,7 +38,9 @@ for (var i = 0; i < cognomi.length; i++) {
     console.log((i + 1) + " E' la posizione di: " + (cognomi[i]));
     
     document.getElementById("lista_cognomi").innerHTML += "<li>" + (i + 1) + " E' la posizione di: " + (cognomi[i]) + "</li>"; 
+
 }
 
-
+    var posizioneUtente = cognomi.indexOf(cognomeUtente);
+    console.log("La posizione del " + cognomeUtente + " si trova alla posizione: " + (posizioneUtente + 1));
 
